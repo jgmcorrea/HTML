@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseud-class
+        :: = pseudo-elemento
+        >  = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: red; /* cor da letra */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred; /* cor da letra após clicar no link*/
+        }
+
+        a:hover {
+            color: black; /* cor da letra quando o mouse estiver em cima*/
+            text-decoration: underline; /* formatação enquanto o mouse estiver em cima*/
+        }
+
+        a:active {
+            color: yellow; /* cor da letra quando estiver clicando no link*/
+        }
+
+        a::before {
+            content: '↠ ';
+            text-decoration: none;
+            font-weight: normal;
+            
+        }
+        a::after {
+            content: ' ↞';
+            text-decoration: none;
+            font-weight: normal;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando linhas</h1>
+    <ul>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras</a></li>
+        <li><a href="https://www.globo.com" target="_blank">Globo</a></li>
+        <li><a href="https://www.gmail.com" target="_blank">Gmail</a></li>
+    </ul>
+</body>
+</html>

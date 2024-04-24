@@ -1,0 +1,54 @@
+Site para buscar emojis: emojipedia.org
+
+Site para buscar imagens com domínio público:
+    1. unplash
+    2. pexels
+    3. freepik
+    4. rawpixel
+    5. pixabay
+    6. libreshot
+    7. wikimedia commons
+    
+    Para pesquisas no google, deve ser marcado em Direitos de uso: Marcadas para reutilização com modificação
+
+Site para fazer um ico:
+favicon.io 
+
+Usando command + shif + p eu entro no buscar para colocar alguma tag em algo já escrito.
+
+Posso colocar um style no cabeçalho para alterar tudo no texto para determinada coisa.
+Exemplo:
+<style>
+    mark {
+        background-color: green;
+    }
+</style>
+Neste caso acima, todos os "mark"do texto seriam em green.
+
+Para acessar a lista de media type, o site é>
+http://www.iana.org/assignments/media-types
+
+Shift+alt = copiar e arrastar selecionado
+
+Fontes Síntique:
+1- Oswald
+Libre Baskerville
+Plaufair Display SC - FONTES ALTAS
+Times New
+Hurricane - caso mencione a frase de algum autor ou autoral.
+
+Sites para baixar fontes:
+- dafont.com
+
+Para usar baixo, coloco na pasta, e uso @font-face
+
+CAIXA:
+altura = height
+largura = width
+borda = border
+espaço entre a borda e o conteúdo = padding
+espaço entre a caixa e uma outra caixa = margin
+traçado por fora da borda = outine
+
+block-level sempre ocupa toda a largura da tela e sempre na linha após a última. (div, h1-h6, p, main, header, nav, article, aside, footer, form, video)
+inline-level não pula para a próxima linha nem para começar, nem para terminar. Sendo assim, ele não ocupa a largura inteira da tela. (span, a, code, amall, strong, em, sup-sub, label, buttom, input, select)
