@@ -52,3 +52,5 @@ traçado por fora da borda = outine
 
 block-level sempre ocupa toda a largura da tela e sempre na linha após a última. (div, h1-h6, p, main, header, nav, article, aside, footer, form, video)
 inline-level não pula para a próxima linha nem para começar, nem para terminar. Sendo assim, ele não ocupa a largura inteira da tela. (span, a, code, amall, strong, em, sup-sub, label, buttom, input, select)
+
+Isso aqui é um teste do github
