@@ -23,7 +23,7 @@ Exemplo:
         background-color: green;
     }
 </style>
-Neste caso acima, todos os "mark"do texto seriam em green.
+Neste caso acima, todos os "mark" do texto seriam em green.
 
 Para acessar a lista de media type, o site é>
 http://www.iana.org/assignments/media-types
